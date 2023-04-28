@@ -17,6 +17,9 @@
     /* Para que el scrolleo en la one page sea suave */
     scroll-behavior: smooth;
 }
+section{
+    min-height: 100vh;
+}
 
 /* Para quitar los puntos a los items de listas */
 ul {
@@ -54,3 +57,7 @@ main {
 *    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
 *    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
 */
+
+header{
+    padding: 40px, 20px;
+}
