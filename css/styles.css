@@ -54,7 +54,7 @@ li.menu-items {
   padding: 16px;
 }
 section {
-  min-height: 100vh;
+  min-height: 90vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -93,7 +93,7 @@ p {
 .contact {
   background-color: rgba(175, 89, 158, 0.3);
   margin: 20px;
-  border-radius: 5%;
+  border-radius: 5%;  
 }
 .icono {
   width: 50px;
@@ -107,7 +107,7 @@ footer {
   background-color: #af599e;
   color: #fbfbfb;
   height: 90px;
-}
+  }
 
 /* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
 *  el margin: auto; para tenerlo centrado fácilmente ;)
