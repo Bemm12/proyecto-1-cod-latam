@@ -22,7 +22,6 @@
    background-color: #fbfbfb;
    color: #0f0f0f;
  }
-
 header {
   display: flex;
   justify-content: space-around;
@@ -37,7 +36,6 @@ header {
   box-shadow: 0 3px 10px -5px #888383;
   font-family: "Lato";
 }
-
 #logo {
   width: 100%;
   height: 100%;
@@ -45,19 +43,16 @@ header {
 }
 .foto {
   border-radius: 50%;
-  width: 300px; /*no logre ajustar la foto a 400px ya que se veía muy grande*/
+  width: 300px; /*no logre ajustar la foto a 400px ya que se desborda de la vista mobile first*/
 }
-
 #menu-principal {
   display: flex;
   font-size: 20px;
   font-weight:bold;
 }
-
 li.menu-items {
   padding: 16px;
 }
-
 section {
   min-height: 100vh;
   display: flex;
@@ -66,18 +61,15 @@ section {
   align-items: center;
   padding-top: 120px;
 }
-
 /* Para quitar los puntos a los items de listas */
 ul {
   list-style: none;
 }
-
 /* Para que los enlaces hereden el color de texto y no tengan subrayado */
 a {
   text-decoration: none;
   color: inherit;
 }
-
 h1 {
   font-size: 36px;
 }
@@ -91,7 +83,6 @@ p {
   line-height: 1.2;
   margin: 20px;
 }
-
 .button {
   font-size: 20px;
   background-color: #af599e;
@@ -99,12 +90,11 @@ p {
   border-radius: 50px;
   padding: 10px 10px;
 }
-#contact {
+.contact {
   background-color: rgba(175, 89, 158, 0.3);
   margin: 20px;
   border-radius: 5%;
 }
-
 .icono {
   width: 50px;
   max-width: 100px;
